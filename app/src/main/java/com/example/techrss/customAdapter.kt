@@ -1,7 +1,9 @@
 package com.example.techrss
 
 import android.arch.lifecycle.ViewModelProvider
+import android.content.res.Resources
 import android.support.v7.widget.RecyclerView
+import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,24 +15,11 @@ data class viewData(val data: Triple<String,String,String>, var viewType: Int)
 
 
 
-class NewsAdapter(val recyclerView: RecyclerView) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
-    val data = ArrayList<viewData>()
+class NewsAdapter(val data: ArrayList<Item>, val resource : Resources) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     var expanded = -1
 
     init {
-        data.add(viewData(Triple("aaaaaa", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("1111111", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("2222222", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("333333", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("444444", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("55555", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("66666", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("77777", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("88888", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("99999", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("aaaaaa", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("aaaaaa", "bbbbb", "Cccc"), 0))
-        data.add(viewData(Triple("aaaaaa", "bbbbb", "Cccc"), 0))
+
     }
 
 
@@ -55,13 +44,13 @@ class NewsAdapter(val recyclerView: RecyclerView) : RecyclerView.Adapter<Recycle
         }
         p0.itemView.setOnClickListener(listener)
         if (p0 is NewsViewHolder) {
-            p0.txtView1.text = data.data.first
-            p0.txtView2.text = data.data.second
+            p0.txtView1.text = data.title
+            p0.txtView2.text = Html.fromHtml(data.description,ImageGetter(resource,p0.txtView2),null)
         } else if (p0 is BigViewHolder) {
-            p0.txtView1.text = data.data.first
-            p0.txtView2.text = data.data.second
-            p0.txtView3.text = data.data.third
-            p0.txtView4.text = data.data.first
+            p0.txtView1.text = data.author
+            p0.txtView2.text = data.title
+            p0.txtView3.text = Html.fromHtml(data.content,ImageGetter(resource,p0.txtView3),null)
+            p0.txtView4.text = data.link
         }
     }
 

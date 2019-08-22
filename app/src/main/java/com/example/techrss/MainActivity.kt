@@ -15,11 +15,16 @@ class MainActivity : AppCompatActivity() {
 
         val viewManager = LinearLayoutManager(this)
         var layout =  LinearLayout(this)
+        var adapterManager = AdapterManager(resources)
         main_recyclerView.apply {
             layoutManager = viewManager
-            adapter = NewsAdapter(this)
+            adapter = adapterManager.adapter
         }
+
+
+
 
 
     }
 }
+/**/

@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 class RssData(
     @SerializedName("feed")
     val feed: Feed,
-    @SerializedName("item")
+    @SerializedName("items")
     val items: List<Item>,
     @SerializedName("status")
     val status: String
