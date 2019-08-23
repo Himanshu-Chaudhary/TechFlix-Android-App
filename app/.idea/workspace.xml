@@ -57,20 +57,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c74c91-ab40-4ac5-9c23-6e54b9c7ca1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_11_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageLoader.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/blog_small.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/blog_small.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -149,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="588">
+              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -215,9 +208,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageLoader.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/blog_small.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/blog_small.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" />
       </list>
     </option>
   </component>
@@ -425,9 +418,9 @@
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49940264" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="4" sideWeight="0.49940264" weight="0.32967034" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50059736" side_tool="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49880525" visible="true" weight="0.3288854" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49880525" weight="0.3288854" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.92532855" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49940264" weight="0.32967034" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.3298466" />
@@ -443,7 +436,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt</url>
-          <line>56</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -562,17 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="85">
+          <caret line="19" column="142" selection-start-line="19" selection-start-column="142" selection-end-line="19" selection-end-column="142" />
         </state>
       </provider>
     </entry>
@@ -580,6 +566,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -597,10 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="142" selection-start-line="19" selection-start-column="142" selection-end-line="19" selection-end-column="142" />
+        <state relative-caret-position="588">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
         </state>
       </provider>
     </entry>
