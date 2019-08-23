@@ -17,7 +17,7 @@ import retrofit2.http.Query
 import java.util.*
 
 interface NewsServices{
-    @GET("api.json?rss_url=http%3A%2F%2Fwww.theverge.com%2Fandroid%2Frss%2Findex.xml")
+    @GET("api.json?rss_url=http%3A%2F%2Fwww.theverge.com%2Fandroid%2Frss%2Findex.xml&api_key=nn8hy1idpciwxxebmqhqx7d2uromlmh29r25yupo&count=20")
     fun getNews() : Observable<RssData>
 }
 
