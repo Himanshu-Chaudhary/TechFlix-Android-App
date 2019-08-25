@@ -39,7 +39,7 @@ class NewsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), custom
     fun onClick(index : Int, adapter : NewsAdapter) : (View)-> Unit{
         val onClickFun: (View)-> Unit ={
             adapter.state.expanded = index
-            adapter.notifyDataSetChanged()
+            adapter.notifyItemChanged(index)
         }
         return onClickFun
     }
@@ -68,7 +68,7 @@ class BigViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), customV
     fun onClick(index : Int, adapter : NewsAdapter) : (View)-> Unit{
         val onClickFun: (View)-> Unit ={
             adapter.state.expanded = -1
-            adapter.notifyDataSetChanged()
+            adapter.notifyItemChanged(index)
         }
         return onClickFun
     }
@@ -90,8 +90,6 @@ class PodcastViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), cus
 
         val onButtonClick : (View)->Unit = {
             adapter.mediaPlayer.toggle(stream_url,txtView_button)
-
-
         }
         this.txtView_button.setOnClickListener(onButtonClick)
 
