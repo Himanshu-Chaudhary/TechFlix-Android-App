@@ -57,13 +57,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c74c91-ab40-4ac5-9c23-6e54b9c7ca1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_simplexml_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_simpleframework_simple_xml_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/assets/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager/AdapterManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/Models/PodcastData_XML.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/Models/PodcastSupplier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/Utils/ImageGetter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/Utils/ImageLoader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/Utils/RetrofirClientInstance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/temp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/RssData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/Models/RssData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager/customAdapter.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +89,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -85,86 +108,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="19" column="142" selection-start-line="19" selection-start-column="142" selection-end-line="19" selection-end-column="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="75" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/ImageLoader.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="e#29#414#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/blog_small.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#29#302#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+            <state relative-caret-position="442">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -173,8 +121,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -184,6 +132,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -192,7 +141,18 @@
     <findStrings>
       <find>compile</find>
       <find>LoadImage</find>
+      <find>expander</find>
+      <find>PodcastInfo</find>
+      <find>enclo</find>
+      <find>Attempting to read from</find>
+      <find>Attempting</find>
+      <find>l</find>
+      <find>val</find>
+      <find>audio</find>
     </findStrings>
+    <replaceStrings>
+      <replace>var</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -201,16 +161,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/RssData.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager.kt" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageLoader.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt" />
         <option value="$PROJECT_DIR$/src/main/res/layout/blog_small.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/Podcast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/Podcast1.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/Podcast.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/PodcastSupplier.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/temp.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/src/main/assets/data" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/PodcastData.kt" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/data.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/RssPodcastData.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/RssData.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/techrss/Models/PodcastData_XML.kt" />
       </list>
     </option>
   </component>
@@ -226,6 +197,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -236,47 +209,18 @@
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="techrss" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="techrss" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="techrss" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="techrss" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="app" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="app" type="1abcf292:AndroidViewProjectNode" />
@@ -286,11 +230,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_28" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-08-24T19:12:32.602Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="updates&#9;ACTION&#9;WelcomeScreen.Update&#10;update&#9;ACTION&#9;WelcomeScreen.Update" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Pixel_2_API_28" />
@@ -303,6 +248,16 @@
   </component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.techrss.DataUtils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hiManshu\Documents\ANdroid\NewsApp\TechNews\app\src\main\java\com\example\techrss\DataUtils" />
+      <recent name="C:\Users\hiManshu\Documents\ANdroid\NewsApp\TechNews\app\src\main\java\com\example\techrss\AdapterManager" />
+      <recent name="C:\Users\hiManshu\Documents\ANdroid\NewsApp\TechNews\app\src\main\java\com\example\techrss\Models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,9 +359,36 @@
     <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Resources Explorer" order="0" weight="0.3297491" />
+      <window_info id="Resources Explorer" order="0" weight="0.32944608" />
       <window_info id="Captures" order="1" sideWeight="0.50117093" side_tool="true" weight="0.31242532" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49882904" visible="true" weight="0.31242532" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49882904" visible="true" weight="0.13201912" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Android Profiler" order="1" sideWeight="0.49880525" weight="0.32884777" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49940264" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="4" sideWeight="0.49940264" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50059736" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49880525" weight="0.3288854" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.92532855" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49940264" weight="0.30298272" />
+      <window_info anchor="right" id="Assistant" order="0" weight="0.32957503" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Resources Explorer" order="0" weight="0.32944608" />
+      <window_info id="Captures" order="1" sideWeight="0.50117093" side_tool="true" weight="0.31242532" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49882904" visible="true" weight="0.16107872" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -418,27 +400,27 @@
       <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49940264" weight="0.32967034" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="4" sideWeight="0.49940264" weight="0.32967034" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50059736" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49880525" weight="0.3288854" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.92532855" weight="0.32967034" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49940264" weight="0.32967034" />
-      <window_info anchor="right" id="Assistant" order="0" weight="0.3298466" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.49940264" visible="true" weight="0.3932496" />
+      <window_info anchor="right" id="Assistant" order="0" weight="0.32957503" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt</url>
-          <line>57</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager/AdapterManager.kt</url>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -446,67 +428,63 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].wholeText() is String</expression-string>
+        <expression-string>data.items[0].enclosure.li</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import com.example.techrss.RssData</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Persister().read(Channel::class.java,file)</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import org.simpleframework.xml.core.Persister</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>applica</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].wholeText()</expression-string>
+        <expression-string>source.canRead()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].getElementsByAttributeStarting(&quot;&lt;p&gt;&quot;)</expression-string>
+        <expression-string>e.getMessage()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Jsoup.parse()</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import org.xmlpull.v1.XmlPullParser,import org.xmlpull.v1.XmlPullParserFactory,import android.util.Xml,import org.jsoup.Jsoup,import okio.Timeout</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>XMLPa</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import org.jsoup.Jsoup,import org.xmlpull.v1.XmlPullParser</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Jsoup.parse(tech_podcast)</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import org.jsoup.Jsoup</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>data</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].getElementsByAttributeStarting(&quot;p&quot;)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].data()</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].child(0)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].attr(&quot;p&quot;)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0].select(&quot;p&quot;)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Jsoup.parse(data.description).select(&quot;p&quot;)[0]</expression-string>
+        <expression-string>data.content</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="2908" selection-start-line="2908" selection-end-line="2908" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RssData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -523,11 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Utils/ImageGetter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="136">
+          <caret line="23" column="75" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -538,41 +515,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="59" column="45" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        <state relative-caret-position="276">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/ImageLoader.kt">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="174">
+          <caret line="326" column="51" lean-forward="true" selection-start-line="326" selection-start-column="51" selection-end-line="326" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Utils/ImageLoader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#29#414#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RetrofirClientInstance.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="142" selection-start-line="19" selection-start-column="142" selection-end-line="19" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/ImageGetter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -580,20 +543,501 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager/customAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="918">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Podcast1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="2" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Models/PodcastData_XML.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/temp.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.simpleframework/simple-xml/2.7.1/2a949576bb8da7514024dc0b84efeeb2fc902a0/simple-xml-2.7.1-sources.jar!/org/simpleframework/xml/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8965">
+          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="2909" selection-start-line="2909" selection-end-line="2909" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-simplexml/2.5.0/4eb7c95d0b6801169e74e6e8e93a98d1ac53c11d/converter-simplexml-2.5.0-sources.jar!/retrofit2/converter/simplexml/SimpleXmlConverterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/assets/data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#29#302#0" expanded="true" />
+            <element signature="e#2900#2904#0" expanded="true" />
+            <element signature="e#3014#3018#0" expanded="true" />
+            <element signature="e#6578#6582#0" expanded="true" />
+            <element signature="e#6692#6696#0" expanded="true" />
+            <element signature="e#10123#10127#0" expanded="true" />
+            <element signature="e#10237#10241#0" expanded="true" />
+            <element signature="e#13637#13641#0" expanded="true" />
+            <element signature="e#13751#13755#0" expanded="true" />
+            <element signature="e#17252#17256#0" expanded="true" />
+            <element signature="e#17366#17370#0" expanded="true" />
+            <element signature="e#20908#20912#0" expanded="true" />
+            <element signature="e#21022#21026#0" expanded="true" />
+            <element signature="e#24702#24706#0" expanded="true" />
+            <element signature="e#24816#24820#0" expanded="true" />
+            <element signature="e#28538#28542#0" expanded="true" />
+            <element signature="e#28652#28656#0" expanded="true" />
+            <element signature="e#32276#32280#0" expanded="true" />
+            <element signature="e#32390#32394#0" expanded="true" />
+            <element signature="e#35923#35927#0" expanded="true" />
+            <element signature="e#36037#36041#0" expanded="true" />
+            <element signature="e#39830#39834#0" expanded="true" />
+            <element signature="e#39944#39948#0" expanded="true" />
+            <element signature="e#43755#43759#0" expanded="true" />
+            <element signature="e#43869#43873#0" expanded="true" />
+            <element signature="e#47687#47691#0" expanded="true" />
+            <element signature="e#47801#47805#0" expanded="true" />
+            <element signature="e#51556#51560#0" expanded="true" />
+            <element signature="e#51670#51674#0" expanded="true" />
+            <element signature="e#55421#55425#0" expanded="true" />
+            <element signature="e#55535#55539#0" expanded="true" />
+            <element signature="e#59413#59417#0" expanded="true" />
+            <element signature="e#59527#59531#0" expanded="true" />
+            <element signature="e#63340#63344#0" expanded="true" />
+            <element signature="e#63454#63458#0" expanded="true" />
+            <element signature="e#67226#67230#0" expanded="true" />
+            <element signature="e#67340#67344#0" expanded="true" />
+            <element signature="e#71008#71012#0" expanded="true" />
+            <element signature="e#71122#71126#0" expanded="true" />
+            <element signature="e#74805#74809#0" expanded="true" />
+            <element signature="e#74919#74923#0" expanded="true" />
+            <element signature="e#78534#78538#0" expanded="true" />
+            <element signature="e#78648#78652#0" expanded="true" />
+            <element signature="e#82310#82314#0" expanded="true" />
+            <element signature="e#82424#82428#0" expanded="true" />
+            <element signature="e#86110#86114#0" expanded="true" />
+            <element signature="e#86224#86228#0" expanded="true" />
+            <element signature="e#89985#89989#0" expanded="true" />
+            <element signature="e#90099#90103#0" expanded="true" />
+            <element signature="e#93899#93903#0" expanded="true" />
+            <element signature="e#94013#94017#0" expanded="true" />
+            <element signature="e#97736#97740#0" expanded="true" />
+            <element signature="e#97850#97854#0" expanded="true" />
+            <element signature="e#101499#101503#0" expanded="true" />
+            <element signature="e#101613#101617#0" expanded="true" />
+            <element signature="e#105258#105262#0" expanded="true" />
+            <element signature="e#105372#105376#0" expanded="true" />
+            <element signature="e#109170#109174#0" expanded="true" />
+            <element signature="e#109284#109288#0" expanded="true" />
+            <element signature="e#113072#113076#0" expanded="true" />
+            <element signature="e#113186#113190#0" expanded="true" />
+            <element signature="e#117221#117225#0" expanded="true" />
+            <element signature="e#117335#117339#0" expanded="true" />
+            <element signature="e#121086#121090#0" expanded="true" />
+            <element signature="e#121200#121204#0" expanded="true" />
+            <element signature="e#124770#124774#0" expanded="true" />
+            <element signature="e#124884#124888#0" expanded="true" />
+            <element signature="e#128677#128681#0" expanded="true" />
+            <element signature="e#128791#128795#0" expanded="true" />
+            <element signature="e#132689#132693#0" expanded="true" />
+            <element signature="e#132803#132807#0" expanded="true" />
+            <element signature="e#136753#136757#0" expanded="true" />
+            <element signature="e#136867#136871#0" expanded="true" />
+            <element signature="e#140673#140677#0" expanded="true" />
+            <element signature="e#140787#140791#0" expanded="true" />
+            <element signature="e#144437#144441#0" expanded="true" />
+            <element signature="e#144551#144555#0" expanded="true" />
+            <element signature="e#148309#148313#0" expanded="true" />
+            <element signature="e#148423#148427#0" expanded="true" />
+            <element signature="e#152319#152323#0" expanded="true" />
+            <element signature="e#152433#152437#0" expanded="true" />
+            <element signature="e#156464#156468#0" expanded="true" />
+            <element signature="e#156578#156582#0" expanded="true" />
+            <element signature="e#160543#160547#0" expanded="true" />
+            <element signature="e#160657#160661#0" expanded="true" />
+            <element signature="e#164554#164558#0" expanded="true" />
+            <element signature="e#164668#164672#0" expanded="true" />
+            <element signature="e#168488#168492#0" expanded="true" />
+            <element signature="e#168602#168606#0" expanded="true" />
+            <element signature="e#172437#172441#0" expanded="true" />
+            <element signature="e#172551#172555#0" expanded="true" />
+            <element signature="e#176420#176424#0" expanded="true" />
+            <element signature="e#176534#176538#0" expanded="true" />
+            <element signature="e#180193#180197#0" expanded="true" />
+            <element signature="e#180307#180311#0" expanded="true" />
+            <element signature="e#184079#184083#0" expanded="true" />
+            <element signature="e#184193#184197#0" expanded="true" />
+            <element signature="e#187893#187897#0" expanded="true" />
+            <element signature="e#188007#188011#0" expanded="true" />
+            <element signature="e#191747#191751#0" expanded="true" />
+            <element signature="e#191861#191865#0" expanded="true" />
+            <element signature="e#195695#195699#0" expanded="true" />
+            <element signature="e#195809#195813#0" expanded="true" />
+            <element signature="e#199533#199537#0" expanded="true" />
+            <element signature="e#199647#199651#0" expanded="true" />
+            <element signature="e#203351#203355#0" expanded="true" />
+            <element signature="e#203465#203469#0" expanded="true" />
+            <element signature="e#207199#207203#0" expanded="true" />
+            <element signature="e#207313#207317#0" expanded="true" />
+            <element signature="e#211188#211192#0" expanded="true" />
+            <element signature="e#211302#211306#0" expanded="true" />
+            <element signature="e#215158#215162#0" expanded="true" />
+            <element signature="e#215272#215276#0" expanded="true" />
+            <element signature="e#219143#219147#0" expanded="true" />
+            <element signature="e#219257#219261#0" expanded="true" />
+            <element signature="e#223324#223328#0" expanded="true" />
+            <element signature="e#223438#223442#0" expanded="true" />
+            <element signature="e#227586#227590#0" expanded="true" />
+            <element signature="e#227700#227704#0" expanded="true" />
+            <element signature="e#231637#231641#0" expanded="true" />
+            <element signature="e#231751#231755#0" expanded="true" />
+            <element signature="e#235564#235568#0" expanded="true" />
+            <element signature="e#235678#235682#0" expanded="true" />
+            <element signature="e#239478#239482#0" expanded="true" />
+            <element signature="e#239592#239596#0" expanded="true" />
+            <element signature="e#243430#243434#0" expanded="true" />
+            <element signature="e#243544#243548#0" expanded="true" />
+            <element signature="e#247573#247577#0" expanded="true" />
+            <element signature="e#247687#247691#0" expanded="true" />
+            <element signature="e#251722#251726#0" expanded="true" />
+            <element signature="e#251836#251840#0" expanded="true" />
+            <element signature="e#255666#255670#0" expanded="true" />
+            <element signature="e#255780#255784#0" expanded="true" />
+            <element signature="e#259724#259728#0" expanded="true" />
+            <element signature="e#259838#259842#0" expanded="true" />
+            <element signature="e#263838#263842#0" expanded="true" />
+            <element signature="e#263952#263956#0" expanded="true" />
+            <element signature="e#267798#267803#0" expanded="true" />
+            <element signature="e#267837#267841#0" expanded="true" />
+            <element signature="e#267951#267955#0" expanded="true" />
+            <element signature="e#270904#270909#0" expanded="true" />
+            <element signature="e#271756#271761#0" expanded="true" />
+            <element signature="e#271788#271792#0" expanded="true" />
+            <element signature="e#271902#271906#0" expanded="true" />
+            <element signature="e#274717#274722#0" expanded="true" />
+            <element signature="e#275831#275835#0" expanded="true" />
+            <element signature="e#275945#275949#0" expanded="true" />
+            <element signature="e#280098#280102#0" expanded="true" />
+            <element signature="e#280212#280216#0" expanded="true" />
+            <element signature="e#284137#284141#0" expanded="true" />
+            <element signature="e#284251#284255#0" expanded="true" />
+            <element signature="e#288175#288179#0" expanded="true" />
+            <element signature="e#288289#288293#0" expanded="true" />
+            <element signature="e#292470#292474#0" expanded="true" />
+            <element signature="e#292584#292588#0" expanded="true" />
+            <element signature="e#296832#296836#0" expanded="true" />
+            <element signature="e#296946#296950#0" expanded="true" />
+            <element signature="e#300877#300881#0" expanded="true" />
+            <element signature="e#300991#300995#0" expanded="true" />
+            <element signature="e#304760#304764#0" expanded="true" />
+            <element signature="e#304874#304878#0" expanded="true" />
+            <element signature="e#308701#308705#0" expanded="true" />
+            <element signature="e#308815#308819#0" expanded="true" />
+            <element signature="e#312590#312594#0" expanded="true" />
+            <element signature="e#312704#312708#0" expanded="true" />
+            <element signature="e#316522#316526#0" expanded="true" />
+            <element signature="e#316636#316640#0" expanded="true" />
+            <element signature="e#320400#320404#0" expanded="true" />
+            <element signature="e#320514#320518#0" expanded="true" />
+            <element signature="e#324511#324515#0" expanded="true" />
+            <element signature="e#324625#324629#0" expanded="true" />
+            <element signature="e#328632#328636#0" expanded="true" />
+            <element signature="e#328746#328750#0" expanded="true" />
+            <element signature="e#332746#332750#0" expanded="true" />
+            <element signature="e#332860#332864#0" expanded="true" />
+            <element signature="e#336868#336872#0" expanded="true" />
+            <element signature="e#336982#336986#0" expanded="true" />
+            <element signature="e#341037#341041#0" expanded="true" />
+            <element signature="e#341151#341155#0" expanded="true" />
+            <element signature="e#345154#345158#0" expanded="true" />
+            <element signature="e#345268#345272#0" expanded="true" />
+            <element signature="e#349118#349122#0" expanded="true" />
+            <element signature="e#349232#349236#0" expanded="true" />
+            <element signature="e#353161#353165#0" expanded="true" />
+            <element signature="e#353275#353279#0" expanded="true" />
+            <element signature="e#357175#357179#0" expanded="true" />
+            <element signature="e#357289#357293#0" expanded="true" />
+            <element signature="e#361281#361285#0" expanded="true" />
+            <element signature="e#361395#361399#0" expanded="true" />
+            <element signature="e#365336#365340#0" expanded="true" />
+            <element signature="e#365450#365454#0" expanded="true" />
+            <element signature="e#369334#369338#0" expanded="true" />
+            <element signature="e#369448#369452#0" expanded="true" />
+            <element signature="e#373527#373531#0" expanded="true" />
+            <element signature="e#373641#373645#0" expanded="true" />
+            <element signature="e#377403#377407#0" expanded="true" />
+            <element signature="e#377517#377521#0" expanded="true" />
+            <element signature="e#380992#380996#0" expanded="true" />
+            <element signature="e#381106#381110#0" expanded="true" />
+            <element signature="e#384824#384828#0" expanded="true" />
+            <element signature="e#384938#384942#0" expanded="true" />
+            <element signature="e#388710#388714#0" expanded="true" />
+            <element signature="e#388824#388828#0" expanded="true" />
+            <element signature="e#392474#392478#0" expanded="true" />
+            <element signature="e#392588#392592#0" expanded="true" />
+            <element signature="e#396244#396248#0" expanded="true" />
+            <element signature="e#396358#396362#0" expanded="true" />
+            <element signature="e#400075#400079#0" expanded="true" />
+            <element signature="e#400189#400193#0" expanded="true" />
+            <element signature="e#404010#404014#0" expanded="true" />
+            <element signature="e#404124#404128#0" expanded="true" />
+            <element signature="e#408199#408203#0" expanded="true" />
+            <element signature="e#408313#408317#0" expanded="true" />
+            <element signature="e#412467#412471#0" expanded="true" />
+            <element signature="e#412581#412585#0" expanded="true" />
+            <element signature="e#416466#416470#0" expanded="true" />
+            <element signature="e#416580#416584#0" expanded="true" />
+            <element signature="e#420293#420297#0" expanded="true" />
+            <element signature="e#420407#420411#0" expanded="true" />
+            <element signature="e#424244#424248#0" expanded="true" />
+            <element signature="e#424358#424362#0" expanded="true" />
+            <element signature="e#428416#428420#0" expanded="true" />
+            <element signature="e#428530#428534#0" expanded="true" />
+            <element signature="e#432619#432623#0" expanded="true" />
+            <element signature="e#432733#432737#0" expanded="true" />
+            <element signature="e#436684#436688#0" expanded="true" />
+            <element signature="e#436798#436802#0" expanded="true" />
+            <element signature="e#440664#440668#0" expanded="true" />
+            <element signature="e#440778#440782#0" expanded="true" />
+            <element signature="e#444592#444596#0" expanded="true" />
+            <element signature="e#444706#444710#0" expanded="true" />
+            <element signature="e#448710#448714#0" expanded="true" />
+            <element signature="e#448824#448828#0" expanded="true" />
+            <element signature="e#452918#452922#0" expanded="true" />
+            <element signature="e#453032#453036#0" expanded="true" />
+            <element signature="e#457367#457371#0" expanded="true" />
+            <element signature="e#457481#457485#0" expanded="true" />
+            <element signature="e#461453#461458#0" expanded="true" />
+            <element signature="e#461537#461541#0" expanded="true" />
+            <element signature="e#461651#461655#0" expanded="true" />
+            <element signature="e#464581#464586#0" expanded="true" />
+            <element signature="e#465682#465686#0" expanded="true" />
+            <element signature="e#465796#465800#0" expanded="true" />
+            <element signature="e#469770#469774#0" expanded="true" />
+            <element signature="e#469884#469888#0" expanded="true" />
+            <element signature="e#473887#473891#0" expanded="true" />
+            <element signature="e#474001#474005#0" expanded="true" />
+            <element signature="e#477823#477827#0" expanded="true" />
+            <element signature="e#477937#477941#0" expanded="true" />
+            <element signature="e#482039#482043#0" expanded="true" />
+            <element signature="e#482153#482157#0" expanded="true" />
+            <element signature="e#486311#486315#0" expanded="true" />
+            <element signature="e#486425#486429#0" expanded="true" />
+            <element signature="e#490458#490462#0" expanded="true" />
+            <element signature="e#490572#490576#0" expanded="true" />
+            <element signature="e#494533#494537#0" expanded="true" />
+            <element signature="e#494647#494651#0" expanded="true" />
+            <element signature="e#498399#498403#0" expanded="true" />
+            <element signature="e#498513#498517#0" expanded="true" />
+            <element signature="e#502527#502531#0" expanded="true" />
+            <element signature="e#502641#502645#0" expanded="true" />
+            <element signature="e#506849#506853#0" expanded="true" />
+            <element signature="e#506963#506967#0" expanded="true" />
+            <element signature="e#510801#510805#0" expanded="true" />
+            <element signature="e#510915#510919#0" expanded="true" />
+            <element signature="e#514394#514398#0" expanded="true" />
+            <element signature="e#514508#514512#0" expanded="true" />
+            <element signature="e#518370#518374#0" expanded="true" />
+            <element signature="e#518484#518488#0" expanded="true" />
+            <element signature="e#522342#522346#0" expanded="true" />
+            <element signature="e#522456#522460#0" expanded="true" />
+            <element signature="e#526249#526253#0" expanded="true" />
+            <element signature="e#526363#526367#0" expanded="true" />
+            <element signature="e#530158#530162#0" expanded="true" />
+            <element signature="e#530272#530276#0" expanded="true" />
+            <element signature="e#534321#534325#0" expanded="true" />
+            <element signature="e#534435#534439#0" expanded="true" />
+            <element signature="e#538776#538780#0" expanded="true" />
+            <element signature="e#538890#538894#0" expanded="true" />
+            <element signature="e#542964#542968#0" expanded="true" />
+            <element signature="e#543078#543082#0" expanded="true" />
+            <element signature="e#547454#547458#0" expanded="true" />
+            <element signature="e#547568#547572#0" expanded="true" />
+            <element signature="e#552144#552148#0" expanded="true" />
+            <element signature="e#552258#552262#0" expanded="true" />
+            <element signature="e#556590#556594#0" expanded="true" />
+            <element signature="e#556704#556708#0" expanded="true" />
+            <element signature="e#560891#560895#0" expanded="true" />
+            <element signature="e#561005#561009#0" expanded="true" />
+            <element signature="e#565034#565038#0" expanded="true" />
+            <element signature="e#565148#565152#0" expanded="true" />
+            <element signature="e#569031#569035#0" expanded="true" />
+            <element signature="e#569145#569149#0" expanded="true" />
+            <element signature="e#573042#573047#0" expanded="true" />
+            <element signature="e#573209#573213#0" expanded="true" />
+            <element signature="e#573323#573327#0" expanded="true" />
+            <element signature="e#575704#575709#0" expanded="true" />
+            <element signature="e#577027#577031#0" expanded="true" />
+            <element signature="e#577141#577145#0" expanded="true" />
+            <element signature="e#581651#581655#0" expanded="true" />
+            <element signature="e#581765#581769#0" expanded="true" />
+            <element signature="e#585983#585987#0" expanded="true" />
+            <element signature="e#586097#586101#0" expanded="true" />
+            <element signature="e#590360#590364#0" expanded="true" />
+            <element signature="e#590474#590478#0" expanded="true" />
+            <element signature="e#594675#594679#0" expanded="true" />
+            <element signature="e#594789#594793#0" expanded="true" />
+            <element signature="e#599019#599023#0" expanded="true" />
+            <element signature="e#599133#599137#0" expanded="true" />
+            <element signature="e#603266#603270#0" expanded="true" />
+            <element signature="e#603380#603384#0" expanded="true" />
+            <element signature="e#607185#607189#0" expanded="true" />
+            <element signature="e#607299#607303#0" expanded="true" />
+            <element signature="e#611097#611101#0" expanded="true" />
+            <element signature="e#611211#611215#0" expanded="true" />
+            <element signature="e#615140#615144#0" expanded="true" />
+            <element signature="e#615254#615258#0" expanded="true" />
+            <element signature="e#619088#619092#0" expanded="true" />
+            <element signature="e#619202#619206#0" expanded="true" />
+            <element signature="e#622902#622906#0" expanded="true" />
+            <element signature="e#623016#623020#0" expanded="true" />
+            <element signature="e#626914#626918#0" expanded="true" />
+            <element signature="e#627028#627032#0" expanded="true" />
+            <element signature="e#631221#631225#0" expanded="true" />
+            <element signature="e#631335#631339#0" expanded="true" />
+            <element signature="e#635359#635363#0" expanded="true" />
+            <element signature="e#635473#635477#0" expanded="true" />
+            <element signature="e#639402#639406#0" expanded="true" />
+            <element signature="e#639516#639520#0" expanded="true" />
+            <element signature="e#643351#643355#0" expanded="true" />
+            <element signature="e#643465#643469#0" expanded="true" />
+            <element signature="e#647326#647330#0" expanded="true" />
+            <element signature="e#647440#647444#0" expanded="true" />
+            <element signature="e#651527#651531#0" expanded="true" />
+            <element signature="e#651641#651645#0" expanded="true" />
+            <element signature="e#655679#655683#0" expanded="true" />
+            <element signature="e#655793#655797#0" expanded="true" />
+            <element signature="e#659620#659624#0" expanded="true" />
+            <element signature="e#659734#659738#0" expanded="true" />
+            <element signature="e#663528#663532#0" expanded="true" />
+            <element signature="e#663642#663646#0" expanded="true" />
+            <element signature="e#667441#667445#0" expanded="true" />
+            <element signature="e#667555#667559#0" expanded="true" />
+            <element signature="e#671320#671324#0" expanded="true" />
+            <element signature="e#671434#671438#0" expanded="true" />
+            <element signature="e#675361#675365#0" expanded="true" />
+            <element signature="e#675475#675479#0" expanded="true" />
+            <element signature="e#679630#679634#0" expanded="true" />
+            <element signature="e#679744#679748#0" expanded="true" />
+            <element signature="e#683705#683709#0" expanded="true" />
+            <element signature="e#683819#683823#0" expanded="true" />
+            <element signature="e#687725#687729#0" expanded="true" />
+            <element signature="e#687839#687843#0" expanded="true" />
+            <element signature="e#691632#691636#0" expanded="true" />
+            <element signature="e#691746#691750#0" expanded="true" />
+            <element signature="e#695424#695428#0" expanded="true" />
+            <element signature="e#695538#695542#0" expanded="true" />
+            <element signature="e#699294#699298#0" expanded="true" />
+            <element signature="e#699408#699412#0" expanded="true" />
+            <element signature="e#703294#703298#0" expanded="true" />
+            <element signature="e#703408#703412#0" expanded="true" />
+            <element signature="e#707472#707476#0" expanded="true" />
+            <element signature="e#707586#707590#0" expanded="true" />
+            <element signature="e#711619#711623#0" expanded="true" />
+            <element signature="e#711733#711737#0" expanded="true" />
+            <element signature="e#715765#715769#0" expanded="true" />
+            <element signature="e#715879#715883#0" expanded="true" />
+            <element signature="e#720039#720043#0" expanded="true" />
+            <element signature="e#720153#720157#0" expanded="true" />
+            <element signature="e#724292#724296#0" expanded="true" />
+            <element signature="e#724406#724410#0" expanded="true" />
+            <element signature="e#728258#728262#0" expanded="true" />
+            <element signature="e#728372#728376#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/customAdapter.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/RssPodcastData.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Models/RssData.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+        <state relative-caret-position="663">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Utils/RetrofirClientInstance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Models/PodcastSupplier.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/Models/PodcastData_XML.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="e#36#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/AdapterManager/AdapterManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="56" column="74" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
+          <folding>
+            <element signature="e#29#437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/techrss/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

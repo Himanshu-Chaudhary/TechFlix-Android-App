@@ -1,12 +1,8 @@
-package com.example.techrss
+package com.example.techrss.Utils
 
-import android.content.res.Resources
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.drawable.BitmapDrawable
-import android.graphics.drawable.LevelListDrawable
 import android.os.AsyncTask
-import android.widget.TextView
 import java.io.FileNotFoundException
 import java.io.IOException
 import java.net.MalformedURLException
