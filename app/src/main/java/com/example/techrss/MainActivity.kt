@@ -4,11 +4,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.widget.LinearLayout
-import com.example.techrss.AdapterManager.AdapterManager
-import com.example.techrss.Models.PodcastRss
+import com.example.techrss.Adapter.AdapterManager
 import kotlinx.android.synthetic.main.activity_main.*
-import org.simpleframework.xml.core.Persister
-import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             layoutManager = viewManager
             adapter = adapterManager.adapter
         }
+        main_recyclerView.setItemViewCacheSize(20)
 
 
 

@@ -1,19 +1,19 @@
-package com.example.techrss.AdapterManager
+package com.example.techrss.Adapter
 
 import android.content.res.Resources
 import android.support.v7.widget.RecyclerView
-import com.example.techrss.Models.Channel
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import com.example.techrss.Models.Item
 import com.example.techrss.Models.PodcastSupplier
 import com.example.techrss.Models.RssData
+import com.example.techrss.Models.ViewHolderType
 import com.example.techrss.Utils.NewsServices
 import com.example.techrss.Utils.RetrofirClientInstance
-import org.simpleframework.xml.core.Persister
-import java.io.File
-import java.io.FileInputStream
+import java.util.*
+import java.util.function.Consumer
+import kotlin.collections.ArrayList
 
 
 interface AsyncDelegate {
@@ -50,7 +50,7 @@ class AdapterManager(val resource : Resources){
 
     public fun getPodcastRss(){
         val podcast_url = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.npr.org%2Frss%2Fpodcast.php%3Fid%3D510298"
-        val podcastPlay = ":https://play.podtrac.com/npr-510298/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/ted/2019/08/20190822_ted_believerspod-8991ee02-aed2-4399-8803-793dab4a3ad8.mp3?awCollectionId=510298&amp;awEpisodeId=753457020&amp;orgId=1&amp;d=3078&amp;p=510298&amp;story=753457020&amp;t=podcast&amp;e=753457020&amp;size=49131199&amp;ft=pod&amp;f=510298"
+        val podcastPlay = "https://play.podtrac.com/npr-510298/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/ted/2019/08/20190822_ted_believerspod-8991ee02-aed2-4399-8803-793dab4a3ad8.mp3?awCollectionId=510298&amp;awEpisodeId=753457020&amp;orgId=1&amp;d=3078&amp;p=510298&amp;story=753457020&amp;t=podcast&amp;e=753457020&amp;size=49131199&amp;ft=pod&amp;f=510298"
         disposable = retrofit.getNews(podcast_url)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -58,8 +58,13 @@ class AdapterManager(val resource : Resources){
 
     }
 
+
     private fun onRetrievePodcastRss(data: RssData){
-        val a = data
+        data.items.forEach{
+            x -> x.itemType = ViewHolderType.PODCAST
+        }
+        adapterData.addAll(data.items)
+        adapter.notifyDataSetChanged()
     }
 
     public fun getPodcastLinks(){
@@ -79,8 +84,11 @@ class AdapterManager(val resource : Resources){
     }
 
     fun onRetrieveData (data : RssData){
-        adapterData.clear()
+        data.items.forEach{
+            x -> x.itemType = ViewHolderType.NEWS
+        }
         adapterData.addAll(data.items)
+        adapterData.shuffle(Random())
         adapter.notifyDataSetChanged()
     }
 

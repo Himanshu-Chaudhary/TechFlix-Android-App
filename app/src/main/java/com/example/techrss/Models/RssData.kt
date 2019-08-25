@@ -2,6 +2,11 @@ package com.example.techrss.Models
 
 import com.google.gson.annotations.SerializedName
 
+enum  class ViewHolderType(val state: Int){
+    NEWS (0) ,
+    PODCAST(1)
+}
+
 class RssData(
         @SerializedName("feed")
     val feed: Feed,
@@ -21,6 +26,7 @@ data class Feed(
 )
 
 data class Item(
+        var itemType: ViewHolderType? = null,
         val author: String,
         val categories: List<Any>,
         val content: String,
