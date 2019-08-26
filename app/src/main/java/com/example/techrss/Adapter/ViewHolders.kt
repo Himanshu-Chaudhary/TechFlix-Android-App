@@ -1,6 +1,7 @@
 package com.example.techrss.Adapter
 
 import android.content.res.Resources
+import android.graphics.Typeface
 import android.support.v7.widget.RecyclerView
 import android.text.Html
 import android.view.View
@@ -10,6 +11,8 @@ import android.widget.TextView
 import com.example.techrss.R
 import com.example.techrss.Utils.*
 import org.jsoup.Jsoup
+import uk.co.deanwild.flowtextview.FlowTextView
+import java.util.Collections.replaceAll
 
 interface customViewHolder{
     fun bindData(index: Int, resource : Resources, adapter : NewsAdapter)
@@ -31,6 +34,7 @@ class NewsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), custom
         val desc = Jsoup.parse(data.description).select("p")[0].wholeText()
         this.txtView1.text = title
         this.txtView2.text = desc
+        val color = this.txtView1.currentTextColor
         LoadImage(source,this.imageView,resource)
         var onClickListener = onClick(index,adapter)
         this.itemView.setOnClickListener(onClickListener)
@@ -50,17 +54,18 @@ class NewsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), custom
 class BigViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), customViewHolder {
 
 
-    val txtView1 = itemView.findViewById<TextView>(R.id.textView_big1)
-    val txtView2 = itemView.findViewById<TextView>(R.id.textView_big2)
-    val txtView3 = itemView.findViewById<TextView>(R.id.textView_big3)
-    val txtView4 = itemView.findViewById<TextView>(R.id.textView_big4)
+
+    val txtView = itemView.findViewById<TextView>(R.id.txtView_blog_big)
+    val txtView_title = itemView.findViewById<TextView>(R.id.textView_blog_big_title)
+
+
 
     override fun bindData(index: Int, resource : Resources,adapter : NewsAdapter) {
         val data = adapter.data[index]
-        this.txtView1.text = data.author
-        this.txtView2.text = data.title
-        this.txtView3.text = Html.fromHtml(data.content, ImageGetter(resource, this.txtView3),null)
-        this.txtView4.text = data.link
+        var content = data.content
+        content = content.replace("<small.+/(small)*>".toRegex(), "")
+        this.txtView.text = Html.fromHtml(content, ImageGetter(resource,this.txtView),null)
+        this.txtView_title.text = data.title
         var onClickListener = onClick(index,adapter)
         this.itemView.setOnClickListener(onClickListener)
     }

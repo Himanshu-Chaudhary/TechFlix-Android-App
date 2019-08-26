@@ -29,7 +29,7 @@ data class Item(
         var itemType: ViewHolderType? = null,
         val author: String,
         val categories: List<Any>,
-        val content: String,
+        var content: String,
         val description: String,
         val enclosure: Enclosure,
         val guid: String,
